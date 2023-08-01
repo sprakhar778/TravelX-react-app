@@ -1,0 +1,130 @@
+.hotelContainer
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.hotelWrapper
+{   
+    width: 100%;
+    position: relative;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bookBtn
+{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500;
+    top:10px;
+    right: 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0071c2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hotelImgWraper
+{
+    width: 33%;
+    /* border: 1px solid red; */
+}
+.hotelImg
+{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+.hotelImgContainer
+{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hotelTitle
+{
+    font-size: 24px;
+}
+.hotelAddress
+{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hotelDistance
+{
+    font-weight: 500;
+    color: #0071c2;
+}
+.priceHighlights
+{
+    font-weight: 500;
+    color: #008009;
+}
+.hotelDetails
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+.hotelDetailsText
+{
+    flex: 3;
+}
+.hotelDes
+{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.hotelDes
+{
+    font-weight: 500px;
+    line-gap-override: 5px;
+    font-size: 16px;
+    
+}
+.hotelDetailsPrice
+{
+    flex: 1;
+    background-color: #ebf3ff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    padding:40px;
+}
+.hotelDetailsPrice>h1{
+    font-size: 18px;
+    color: gray;
+}
+.hotelDetailsPrice>span{
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+}
+.hotelDetailsPrice>h2{
+    font-weight: 300;
+   
+    
+}
+#a1
+{
+    color: gray;
+}
+.hotelDetailsPrice>button{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0071c2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
