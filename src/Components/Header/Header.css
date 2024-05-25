@@ -6,8 +6,9 @@
     justify-content: center;
     color: white;
     background-color: #003580;
-    position: relative;
-    transform: translateX(-50%, -50%);
+    position: relative; 
+    top:-5px;
+   
     /* background-color: red; */
 
 }
