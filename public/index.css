@@ -10,7 +10,11 @@ html {
   font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
-
+body
+{
+  overflow-y: hidden;
+  background-color: brown;
+}
 
 
 
