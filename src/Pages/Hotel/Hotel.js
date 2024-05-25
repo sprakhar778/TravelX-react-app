@@ -68,7 +68,7 @@ const Hotel = () => {
             <span> The Hotel Fonda Vela is located in beautiful Monteverde, famous
               for its rare and gorgeous cloud forest and friendly community.</span>
             <h2><b>948$</b><span id="a1">(9 nights)</span></h2>
-            <button>Resevrve or Book Now!</button>
+            <button >Resevrve or Book Now!</button>
           </div>
         </div>
     
